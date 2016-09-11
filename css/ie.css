@@ -1,0 +1,14 @@
+.wrapper{
+	display: none;
+}
+.ieonly{
+	display: block;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+	font-family: Tahoma, sans-serif;
+	text-align: center;
+	width: 1046px;
+	margin: 0 auto;
+
+}
