@@ -1,0 +1,1245 @@
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadPro-LightCond";
+    src: url("../fonts/MyriadPro-LightCond.eot");
+    src: url("../fonts/MyriadPro-LightCond.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadPro-LightCond.woff") format("woff"),
+    url("../fonts/MyriadPro-LightCond.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.wrapper{
+	width: 100%;
+}
+.header,.main,.footer-holder{
+	margin: 0 auto;
+	width: 960px;
+}
+.main{
+	margin-bottom: 50px;
+}
+.header{
+	padding: 41px 0 41px 0;
+}
+.logo-holder{
+	float: left;
+	margin: 0 0 0 -11px;
+}
+.logo-holder a{
+	display: inline-block;
+	text-decoration: none;
+}
+.header_nav ul{
+	text-align: right;
+}
+.header_nav ul li{
+	display: inline-block;
+	line-height: 45px;
+	margin: 0 0 0 14px;
+	position: relative;
+}
+.header_nav ul li:not(:last-child):after{
+	background: #bfbebe;
+	content: '';
+	height: 11px;
+	position: absolute;
+	right: -10px;
+	top: 17px;
+	width: 1px;
+}
+.header_nav ul li a{
+	color: #9f9f9f;
+	font: 11px Verdana,Arial,sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.header_nav ul li a:hover{
+	color: #757575;
+}
+.main_page .top-menu{
+	margin-bottom: 0;
+}
+.top-menu{
+	background: url(../img/top-menu_bg.png) repeat-x 0 0;
+	border-bottom: 1px solid #cfcfcf;
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 32px;
+}
+.top-menu>ul{
+	height: 53px;
+	position: relative;
+	text-align: center;
+}
+.top-menu>ul:after{
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(204,204,204,1) 52%, rgba(255,255,255,0.02) 99%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(52%,rgba(204,204,204,1)), color-stop(99%,rgba(255,255,255,0.02)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(204,204,204,1) 52%,rgba(255,255,255,0.02) 99%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(204,204,204,1) 52%,rgba(255,255,255,0.02) 99%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(204,204,204,1) 52%,rgba(255,255,255,0.02) 99%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(204,204,204,1) 52%,rgba(255,255,255,0.02) 99%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+	content: '';
+	height: 3px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.top-menu>ul>li{
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+}
+.top-menu>ul>li>a{
+	color:#7c7f83;
+	display: inline-block;
+	font: 14px/56px "MyriadProBold",Verdana,sans-serif;
+	padding: 0 43px;
+	position: relative;
+	text-decoration: none;
+	text-shadow:0px 1px 1px #c4c7c9;
+	text-transform: uppercase;
+}
+.top-menu>ul>li>a span{
+	position: relative;
+	z-index: 55;
+}
+.top-menu>ul>li:not(:last-child):after{
+	background: url(../img/top-menu_after.png) no-repeat 0 0;
+	content: '';
+	height: 33px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 1px;
+}
+.top-menu>ul>li>a:after{
+	background: rgba(255, 255, 255, .95);
+	border: 1px solid #c9c9c9;
+	border-bottom: 0;
+	box-shadow: 0 0 6px 1px rgba(0,0,0,0.3);
+	content: '';
+	height: 63px;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: -10px;
+	width: 100%;
+	z-index: 51;	
+}
+.top-menu > ul > li > a:before{
+	content: '';
+	width: 100%;
+	height: 101%;
+	background: rgba(255, 255, 255, .95);
+	left: 1px;
+	top: 0%;
+	position: absolute;
+	opacity: 0;
+	z-index: 53;
+}
+.top-menu>ul>li:hover a,.top-menu>ul>li.active a{
+	color: #1f2273;
+}
+.top-menu>ul>li.has-children:hover a:after{
+	opacity: 1;
+}
+.top-menu>ul>li.active a:after{
+	opacity: 1;
+	height: 73px;
+}
+.top-menu>ul>li.has-children:hover a:before{
+	opacity: 1;
+}
+.top-menu>ul>li.has-children:hover .level-1{
+	opacity: 1;
+	visibility: visible;
+	z-index: 52;
+}
+.level-1{
+	width: 337px;
+	position: absolute;
+	top: 95%;юштащ
+	border: 1px solid #c9c9c9;
+	text-align: left;
+	padding:11px 21px 0;
+	background: rgba(255,255,255,0.95);
+	opacity: 0;
+	visibility: hidden;
+	z-index: 52;
+	box-shadow: 0 0 6px 1px rgba(0,0,0,0.3);
+	line-height: normal;
+}
+.level-1 ul{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.level-1 ul:first-child{
+	position: relative;
+}
+.level-1 ul:first-child:after{
+	content: '';
+	width: 1px;
+	height: 107px;
+	background: url(../img/level-1_after.png) no-repeat 0 0;
+	position: absolute;
+	right: 19px;
+	top: 0;
+}
+.level-1 ul li{
+	line-height: 27px;
+}
+.level-1 ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font: 12px Arial,sans-serif;
+	color: #000;
+}
+.level-1 ul li a:hover{
+	text-decoration: underline;
+}
+.slider-holder{
+	max-width: 960px;
+	height: 252px;
+	background: url(../img/slider_bg.jpg) no-repeat 0 0;
+	border-radius:0 0 23px 23px; 
+	position: relative;
+	padding: 20px 0 0 42px;
+	margin-bottom: 29px;
+}
+.slider-holder:after{
+	content: '';
+	width: 992px;
+	height: 314px;
+	background: url(../img/slider_after.png) no-repeat 0 0;
+	position: absolute;
+	top: -5px;
+	left: -16px;
+ }
+ .slider-holder h2{
+ 	font: 32px/38px "MyriadProBold",Verdana,sans-serif;
+ 	color: #fff;
+ 	text-shadow:1px 1px 2px #050e1d;
+	margin: 0 0 14px 0;
+ }
+ .slider-holder h2 span{
+ 	text-transform: uppercase;
+ }
+ .slider-holder .bx-slider li{
+ 	display: inline-block;
+ 	width: 50%;
+ 	height: 270px;
+ }
+ .slider-holder .text-slide{
+ 	display: inline-block;
+ 	width: 335px;
+ 	height: 270px;
+ }
+ .slider-holder p{
+  	font: 13px/18px Arial,sans-serif;
+  	color: #fff;
+  	padding: 0 25px 0 0;
+ }
+ .bx-pager-item{
+ 	display: inline-block;
+ 	margin: 0 0 0 3px;
+}
+.bx-pager{
+	position: absolute;
+  	bottom: 9px;
+  	right: 25px;
+  	z-index: 60;
+}
+.bx-pager-item a{
+  	text-indent: 9999px;
+  	display: inline-block;
+  	width: 9px;
+  	height: 10px;
+  	background-color: rgba(31,34,115,0.8);
+  	border: 1px solid rgba(255,255,255,0.8);
+}
+.bx-pager-item a.active,.bx-pager-item a:hover{
+  	background-color: rgba(237,0,0,0.8);	
+}
+.container{
+	font-size: 0;
+	line-height: 0;
+}
+.content-wrapper{
+	width: 710px;
+	margin: 0 40px 0 0;
+}
+ h1{
+	font: 32px/59px "MyriadProRegular",Verdana,sans-serif;
+	color: #1f2273;
+	text-transform: uppercase;
+}
+.content-wrapper p{
+	font: 13px/18px Arial,sans-serif;
+	color: #3e3e3e;
+	margin-bottom: 17px;
+}
+.text{
+	margin-bottom: 55px;
+}
+.form-phone-holder{
+	font-size: 0;
+	line-height: 0;
+}
+.callme-holder ul{
+	width: 100%;
+	margin-bottom: 29px;
+}
+.callme-holder ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+.callme-holder ul li:nth-child(3n+2){
+	margin: 0 39px;
+}
+.callme-holder ul li a{
+	display: inline-block;
+}
+.callme-holder,.form-holder{
+	display: inline-block;
+	vertical-align: top;
+}
+.callme-holder{
+	width: 460px;
+	margin-right: 38px;
+}
+.callme-holder .button-wrapper{
+	background: #5d5d65;
+	width: 450px;
+	border-radius: 30px;
+	padding: 2px 2px 2px 8px;
+	line-height: 0;
+	font-size: 0;
+}
+.button-wrapper div{
+	display: inline-block;
+	vertical-align: middle;
+	width: 50%;
+	text-align: center;
+}
+.callme-holder .button-wrapper span{
+	display: inline-block;
+	text-align: center;
+	font:20px/23px "MyriadProBold",Verdana,sans-serif;
+	color: #fff;
+}
+.callme-holder .button-wrapper span:last-child{
+	font: 12px/16px "MyriadProRegular",Verdana,sans-serif;
+	text-shadow:0 0 1px #b1b1b5;
+}
+.button-wrapper .button-callMe{
+	text-align: right;
+}
+.button-wrapper .button-callMe a{
+	display: inline-block;
+	background: url(../img/button_callMe_bg.jpg) repeat-x 0 0;
+	border-radius: 30px;
+	font: 22px/47px "MyriadProBold",Verdana,sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px 0 59px;
+	position: relative;
+}
+.button-wrapper .button-callMe a:before{
+	content: '';
+	width: 34px;
+	height: 43px;
+	background: url(../img/button_callMe_before.png) no-repeat 0 0;
+	position: absolute;
+	top: 3px;
+	left: 13px;
+}
+.button-holder{
+	padding: 17px 0 0;
+	position: relative;
+}
+.button-holder:before{
+	content: '';
+	width: 504px;
+	height: 14px;
+	background: url(../img/button-holder_after.png) no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	left: -23px;
+}
+.form-holder{
+	width: 210px;
+}
+.form-holder span{
+	display: inline-block;
+	font: 24px/39px "MyriadProRegular",Verdana,sans-serif;
+	color: #606060;
+	text-transform: uppercase;
+	margin-top: -11px;
+}
+.form-holder input,
+._form .inputs input{
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	width: 201px;
+	height: 27px;
+	font: 14px/17px Arial,sans-serif;
+	color: #888;
+	padding-left:7px; 
+	margin-bottom: 5px;
+	box-shadow: inset 3px 4px 5px rgba(0,0,0,0.1);
+}
+.form-holder select,._form .inputs select{
+	width: 210px;
+	height: 31px;
+	padding-left:2px; 
+	border: 0;
+	background: transparent;
+	-webkit-appearance:none;
+	font: 14px/17px Arial,sans-serif;
+	color: #888;
+} 
+.form-holder input[type="tel"]{
+	margin-bottom: 14px;
+}
+.form-holder .new-select,._form .inputs .new-select{
+	display: inline-block;
+	width: 208px;
+	height: 29px;
+	overflow: hidden;
+	background: url(../img/select-arrow.png) no-repeat right 0;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	box-shadow: inset 0 -20px 18px rgba(0,0,0,0.1);
+	margin-bottom: 5px;
+}
+.form-holder button{
+	width: 97px;
+	background: url(../img/submit_main_bg.jpg) repeat-x 0 0;
+	text-transform: uppercase;
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 4px;
+	border: 0;
+	color: #fff;
+	font: 700 14px/29px Arial,sans-serif;
+	text-shadow:1px 1px 1px #4b4b50;
+}
+.container .sidebar{
+	width: 210px;
+	padding-top: 22px;
+}
+.container .sidebar,.content-wrapper{
+	display: inline-block;
+	vertical-align: top;
+}
+.sidebar>ul>li>span a{
+	text-decoration: none;
+	color: #fff;
+}
+.sidebar>ul>li>span a:hover{
+	text-decoration: underline;
+}
+.sidebar>ul>li>span{
+	text-transform: capitalize;
+	font: 14px/37px Arial,sans-serif;
+	display: block;
+	padding: 0 0 0 10px;
+	background: url(../img/sidebar_bg.jpg) repeat-y 0 0;
+	color: #fff;
+	position: relative; 
+	cursor: pointer;
+}
+.sidebar>ul>li>span:after{
+	content: '';
+	width: 100%;
+	top: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	z-index: 1;
+}
+.sidebar>ul>li>span:before{
+	content: '';
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 11px;
+	top: 10px;
+	background: url(../img/arrow_sidebar.png) no-repeat 0 0;
+}
+.sidebar>ul>li>span:hover,.has-open-part.active,
+.sidebar>ul>li>span.active{
+	background: #1f2273;
+	color: #5acbff;
+}
+.sidebar>ul>li>span.active a{
+	color: #5acbff;
+}
+.sidebar>ul>li>span:hover:before{
+	background: url(../img/arrow_sidebar.png) no-repeat 0 100%;
+}
+.has-open-part.active:before{
+	background: url(../img/arrow_sidebar.png) no-repeat 0 100%;
+}
+.open-part{
+	display: none;
+	padding: 7px 0 10px 10px;
+	background: #ebebeb;
+	box-shadow: inset 5px 0px 11px -5px rgba(0,0,0,.2);
+}
+.open-part .list-news li span{
+	display: block;
+	font: 700 12px/20px Arial,sans-serif;
+	color: #1f2273;
+}
+.open-part .list-news li a{
+	font: 12px/17px Arial,sans-serif;
+	color: #000;
+}
+.open-part .list-news li:not(:last-child){
+	position: relative;
+	margin-bottom: 17px;
+}
+.open-part .list-news li:not(:last-child):after{
+	content: '';
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	bottom:-11px;
+	left: -7px;
+	background: url(../img/open-part_li_after.png) repeat-x 0 0;
+}
+.open-part>span,.open-part>a,.open-part .list-clients li{
+	display: block;
+	text-decoration: none;
+	font: 14px Arial,sans-serif;
+	color: #676565;
+}
+.open-part .list-clients{
+	margin: 40px 0;
+}
+.open-part>a:hover{
+	text-decoration: underline;
+}
+.footer{
+	background: #f4f4f4;
+	border-top: 1px solid #cacaca;
+}
+.footer-holder>ul{
+	padding: 17px 11px 30px;
+}
+.footer-holder>ul>li{
+	display: inline-block;
+	vertical-align: top;
+	font: 14px Arial,sans-serif;
+	color: #404040;
+	text-transform: capitalize;
+	margin-right: 55px;
+}
+.footer-holder a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font: 11px Arial,sans-serif;
+	color: #7d7d7d;
+}
+.footer-holder a:hover{
+	text-decoration: underline;
+}
+.footer-holder>ul>li ul{
+	padding: 9px 0 0;
+}
+.footer-holder>ul>li ul li{
+	line-height: 18px;
+}
+/*----------------------------------------------------------------------
+Styles for news.html
+------------------------------------------------------------------------*/
+.whats_news .main,.history .main,.portfolio_m .main,
+.qeicl_d .main,.qeifaq .main,.contacts .main,.paypal.portfolio .main{
+	margin-bottom: 37px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.content-container .left-sidebar-holder{
+	width: 210px;
+	float: left;
+	margin: 0 38px 0 0;
+	padding: 26px 0 0;
+}
+.news .left-sidebar-holder{
+	padding: 8px 0 0;
+}
+.content-container .content{
+	/*margin: 0 247px 0;*/
+	float: left;
+	width: 460px;
+	position: relative;
+}
+.content-container .right-sidebar-holder{
+	width: 210px;
+	float: right;
+	padding-top: 21px;
+}
+.right-sidebar-holder .sidebar{
+	margin:0 0 52px 0;
+}
+.right-sidebar-holder .form-holder span{
+	margin: 0 0 9px;
+	font: 18px Arial,sans-serif;
+}
+.right-sidebar-holder .form-holder{
+	margin-bottom: 45px;
+}
+.right-sidebar-holder .button-wrapper div{
+	width: 100%;
+	text-align: left;
+	margin-bottom: 9px;
+}
+.right-sidebar-holder .button-wrapper span{
+	display: block;
+	font: 22px "MyriadProBold",Verdana,sans-serif;
+	color: #1f2273;
+}
+.right-sidebar-holder .button-wrapper span:last-child{
+	font-family: "MyriadPro-LightCond",Verdana,sans-serif;
+	margin-left: 20px;
+}
+.right-sidebar-holder .button-wrapper .button-callMe{
+	text-align: center;
+}
+.left-sidebar-holder ul{
+	margin-bottom: 60px;
+}
+.left-sidebar-holder ul li a{
+	font: 14px/25px Arial,sans-serif;
+	color: #8a8888;
+	text-decoration: none;
+	text-transform: capitalize;
+	display: block;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	padding-left: 10px;
+	margin-bottom: 9px;
+}
+.left-sidebar-holder ul li a:hover, .left-sidebar-holder ul li a.active{
+	color: #1f2273;
+	border-top: 1px solid #1f2273;
+	border-bottom: 1px solid #1f2273;
+}
+.content .fb-like{
+	position: absolute;
+	top: 20px;
+	right: 5px;
+}
+.content{
+	font: 13px Arial,sans-serif;
+	color: #3e3e3e;
+}
+.whats_news .content p{
+	font-weight: 700;
+	margin: 12px 0;
+}
+.whats_news .content a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font: 13px Arial,sans-serif;
+	color: #3e3e3e;
+	border-bottom: 1px solid #b0b0b0;
+}
+.whats_news .content a:hover{
+	color: #1f2273;
+	border-bottom: 1px solid #1f2273;
+}
+.whats_news .content span{
+	display: block;
+	line-height: 59px;
+}
+.whats_news .content ul li:not(:last-child){
+	border-bottom: 1px solid #868686;
+	margin-bottom: 18px;
+}
+.download-holder{
+	text-align: center;
+	font: 24px "MyriadProBold",Verdana,sans-serif;
+	color: #77777d;
+	text-transform: uppercase;
+}
+.download-holder a,.qeicl_d .content .download-holder a,
+.qeicl .content>a,.paypal .content a, fieldset button a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 18px;
+	display: inline-block;
+	line-height: 31px;
+	background: url(../img/download_bg.jpg) repeat-x 0 0;
+	border-radius: 3px;
+	text-shadow:0 -1px 1px #3d9bb1;
+	text-transform: uppercase;
+}
+.download-holder a:hover,.form-holder button:hover,
+.button-callMe a:hover,.qeicl .content a:hover{
+	box-shadow: inset 0px 1px 10px 4px rgba(255,255,255,.5);
+}
+/*---------------------------------------------------------------------------------------------------
+Styles for history.html and PORTFOLIOMANAGMENT.HTML
+------------------------------------------------------------------------------------------------------*/
+.img-holder{
+	float: left;
+	margin: 0 23px 10px 0;
+}
+.history .content span,.portfolio_m .content span{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.history .content p,.portfolio_m .content p{
+	margin-bottom: 17px;
+	line-height: 18px;
+}
+.history .content ul{
+	margin: -11px 0 21px;
+}
+.portfolio_m .content ul{
+	margin: 0 0 21px;
+}
+.history .content ul li{
+	margin: 0 0 11px 0;
+	padding: 11px 0 0 18px;
+	position: relative;
+}
+.portfolio_m .content ul li{
+	margin: 0 0 22px 0;
+	padding: 0 0 0 21px;
+	position: relative;
+}
+.history .content ul li:before,
+.portfolio_m .content ul li:before{
+	content: '';
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #868686;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.portfolio_m .content ul li:before{
+	top: 7px;
+	left: 3px;
+}
+/*---------------------------------------------------------------------------------
+Styles for portfolio.html
+-----------------------------------------------------------------------------------*/
+.portfolio .content span{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+.portfolio .content{
+	line-height: 0;
+	font-size: 0;
+}
+.portfolio .right-lists,.left-lists{
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	font: 13px Arial,sans-serif;
+	color: #3e3e3e;
+}
+.portfolio .left-lists{
+	margin-right: 40px;
+}
+.portfolio .content ul{
+	margin-bottom: 38px;
+}
+.portfolio .content ul li{
+	line-height: 18px;
+}
+.portfolio .main{
+	margin-bottom: 35px;
+}
+/*------------------------------------------------------------------------------------
+STYLES FOR QEICLASSESDownload.html
+----------------------------------------------------------------------------------------------*/
+.content-container .left-sidebar-holder span{
+	font: 700 14px/28px Arial,sans-serif;
+	color: #636161;
+	text-transform: capitalize;
+}
+.qeicl_d .left-sidebar-holder,.qeifaq .left-sidebar-holder,
+.qeicl .left-sidebar-holder{
+	padding: 8px 0 0;
+}
+.qeicl_d .left-sidebar-holder ul,
+.qeifaq .left-sidebar-holder ul,
+.qeicl .left-sidebar-holder ul{
+	margin-bottom: 24px;
+}
+.qeicl_d .left-sidebar-holder ul li a,
+.qeifaq .left-sidebar-holder ul li a,
+.qeicl .left-sidebar-holder ul li a{
+	margin-bottom: 0;
+}
+.left-sidebar{
+	margin-bottom: 52px;
+}
+.qeicl_d .left-sidebar-holder .download-holder,
+.qeifaq .left-sidebar-holder .download-holder,
+.qeicl .left-sidebar-holder .download-holder{
+	margin-right: 16px;
+}
+.qeicl_d .content span{
+	font: 700 18px/18px Arial,sans-serif;
+	color: #868686;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.qeicl_d .content .download-text{
+	margin-bottom: 55px;
+}
+.qeicl_d .content div{
+	font: 13px/18px Arial,sans-serif;
+	color: #3e3e3e;
+}
+.qeicl_d .content .download-text a{
+	color: #3e3e3e;
+}
+.qeicl_d .content .download-holder span{
+	font: 700 14px Arial,sans-serif;
+	color: #3e3e3e;
+	text-transform: none;
+	margin-bottom: 9px;
+}
+.qeicl_d .content .download-holder a{
+	font: 14px/31px "MyriadProBold",Verdana,sans-serif;
+ }
+.qeicl_d .content .download-wrapper div{
+	text-align: center;
+}
+.qeicl_d .content .download-wrapper .download-img{
+	padding: 27px 0 24px 0;	
+}
+/*---------------------------------------------------------------------------------------------------------
+STYLES FOR QEIFAQ.HTML
+
+-------------------------------------------------------------------------------------------------------------------*/
+.qeifaq .content p,.qeifaq .content ul{
+	font: 13px/17px Arial,sans-serif;
+	color: #3e3e3e;
+	margin-bottom: 7px;
+}
+.qeifaq .content h3{
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.qeifaq .content ul li{
+	margin: 0 0 0 0;
+}
+.content .faq-sidebar .faq-has-open-part{
+	position: relative;
+	font-weight: 700;
+	cursor: pointer;
+	padding: 0 0 19px 23px;
+	display: inline-block;
+}
+.content .faq-sidebar .faq-has-open-part:before{
+	content: '';
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: url(../img/QEIFAQ-list-arrow.png) no-repeat 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content .faq-sidebar .faq-open-part{
+	background: #d2d3e3;
+	display: none;
+	padding: 18px 14px 18px 23px;
+	margin-bottom: 19px;
+}
+.content .faq-sidebar .faq-open-part span{
+	display: inline-block;
+	font: 13px/18px Arial,sans-serif;
+	color: #3e3e3e;
+}
+.content .faq-sidebar>ul>li>span:hover,.content .faq-has-open-part.active,
+.content .faq-sidebar>ul>li>span.active{
+	background: transparent;
+	color: #3e3e3e;
+}
+.content .faq-sidebar>li>.faq-has-open-part:hover:before{
+	background-position:  0 100%;
+}
+.content .faq-has-open-part.active:before{
+	background-position:  0 100%;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------
+STYLES FOR CONTACTS.HTML
+
+-----------------------------------------------------------------------------------------------------------------------------------------*/
+.contacts .left-sidebar-holder li a{
+	margin-bottom: 0;
+}
+.contacts .content>span{
+	font: 700 14px Arial,sans-serif;
+	color: #3e3e3e;
+	display: inline-block;
+	margin-bottom: 21px;
+}
+.address-block{
+	font-size: 0;
+	line-height: 0;
+	margin-bottom: 35px;
+}
+.address-block .address{
+	display: inline-block;
+	vertical-align: top;
+	width: 210px;
+	font: 13px/18px Arial,sans-serif;
+	color: #3e3e3e;
+	text-transform: capitalize;
+}
+.address-block .address:first-child{
+	margin-right: 40px;
+}
+.address-block .address span{
+	display: block;
+}
+.address-block .address span a[href*=":+"]{
+	text-decoration: none;
+	color: #3e3e3e;
+}
+.address-block .address span a[href*=":+"]:hover{
+	text-decoration: underline;
+}
+.address-block .address span a{
+	display: inline-block;
+	color: #ce0000;
+}
+.address-block .address span a:hover{
+	text-decoration: none;
+}
+.content .map-holder{
+	margin-bottom: 21px;
+}
+.content .form-holder input,.content .form-holder select{
+	margin-bottom: 5px;
+}
+.content .form-holder input:nth-child(odd){
+	margin-right: 40px;
+}
+.content textarea{
+	display: inline-block;
+	height: 141px;
+	width: 450px;
+	margin-bottom: 11px;
+	padding:6px 0 0 8px;
+	font: 14px Arial,sans-serif;
+	color: #888;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	box-shadow: inset 3px 4px 5px rgba(0,0,0,0.1);
+}
+.content .form-holder{
+	width: 460px;
+	font-size: 0;
+	line-height: 0;
+}
+/*-------------------------------------------------------------------------------------------------------------------
+STYLES FOR QEICLASSES.HTML and QEICLASSESForm.html
+
+------------------------------------------------------------------------------------------------------------------------------*/
+.qeicl .main{
+	margin-bottom: 10px;
+}
+.qeicl .content p{
+	font: 13px/17px Arial,sans-serif;
+	color: #3e3e3e;
+	margin-bottom: 38px;
+} 
+.qeicl .info tr>td:first-child{
+	font: 700 14px Arial,sans-serif;
+	width: 95px;
+	padding-left: 10px;
+}
+.qeicl .info tr>td:last-child{
+	font-size:12px Arial,sans-serif;
+}
+.qeicl .info table{
+	width: 100%;
+}
+.info{
+	background: rgba(31,34,115,.2);
+	line-height: 31px;
+}
+.info-holder{
+	position: relative;
+	margin-bottom: 35px;
+}
+.info-holder .map-it{
+	position: absolute;
+	bottom: 46%;
+	right: 0;
+}
+.qeicl .info-holder .map-it>a{
+	display: inline-block;
+	position: relative;
+	font: 14px "MyriadProBold",Verdana,sans-serif;
+	color:#3e3e3e;
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0 26px 0 0;
+}
+.info-holder .map-it a:hover{
+	text-decoration: none;
+	box-shadow: none;
+}
+.info-holder a:before{
+	content: '';
+	display: inline-block;
+	width: 42px;
+	height: 44px;
+	background: url(../img/map-it.png) no-repeat 0 0;
+	position: absolute;
+	bottom: -85%;
+	left: -80%;
+}
+.qeicl .content>span, ._form fieldset>span{
+	display: block;
+	font: 700 14px/37px Arial,sans-serif;
+	color: #8d9094;
+	background: url(../img/qeicl-description_bg.png) repeat-x 0 0;
+	text-transform: uppercase;
+	padding-left: 10px;
+	margin-bottom: 20px;
+}
+.qeicl .content a,._form .content button a{
+	font: 14px/31px "MyriadProBold",Verdana,sans-serif;
+	margin-bottom: 55px;
+	padding: 0 32px;
+}
+.qeicl .content>span+p{
+	margin-bottom: 23px;
+}
+.qeicl .subscribe-block span{
+	font: 700 18px/52px Arial,sans-serif;
+	color: #868686;
+	text-transform: none;
+}
+.qeicl .subscribe-block p{
+	font: 12px/18px Arial,sans-serif;
+	color: #000;
+	margin-bottom: 14px;
+}
+.subscribe-block .subscribe-holder a{
+	text-decoration: none;
+	padding: 0 17px;
+	background: url(../img/submit_main_bg.jpg) repeat-x 0 0;
+	text-transform: uppercase;
+	display: inline-block;
+	border-radius: 4px;
+	color: #fff;
+	text-shadow:1px 1px 1px #4b4b50;
+}
+.subscribe-block{
+	border-top: 1px solid #868686;
+}
+.subscribe-block .img-holder{
+	margin: 39px 34px 51px 22px;
+}
+.qeicl._form .description-holder{
+	margin-bottom: 35px;
+}
+.description-holder table {
+	width: 100%;
+}
+.qeicl._form .description-holder table thead td{
+	background: url(../img/qeicl-description_bg.png) repeat-x 0 0;
+	font: 700 14px/36px Arial,sans-serif;
+	color: #8d9094;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.qeicl._form .description-holder table tbody td{
+	text-align: center;
+	font: 12px/36px Arial,sans-serif;
+	color: #3e3e3e;
+}
+.qeicl._form .description-holder table tfoot td{
+	text-align: center;
+	text-transform: uppercase;
+	font: 18px/36px Arial,sans-serif;
+	color: #fff;
+	background: #1f2273;
+}
+.qeicl._form .description-holder table tfoot td:first-child{
+	text-align: right;
+}
+.qeicl._form span.e-info{
+	margin-bottom: 11px;
+}
+.qeicl._form span.p-info{
+	margin: 24px 0 9px;
+}
+.qeicl._form span.b-info{
+	margin: 25px 0 11px;
+}
+._form .labels{
+	width: 124px;
+	text-align: right;
+	margin-right: 12px;
+	font: 12px Arial,sans-serif;
+	color: #3e3e3e;
+	text-transform: capitalize;
+}
+._form .labels li{
+	line-height: 35px;
+}
+._form .inputs{
+	width: 320px;
+}
+._form .inputs li.noted{
+	position: relative;
+}
+._form .inputs .noted:after{
+	content: "*";
+	display: inline-block;
+	font-size: 30px;
+	position: absolute;
+	top:6px;
+	right: 36px;
+}
+._form .labels,.inputs{
+	display: inline-block;
+	vertical-align: top;
+}
+._form .inputs #company,#address,#fname,#lname{
+	width: 257px;
+}
+._form .content form>fieldset>div{
+	font: 12px Arial,sans-serif;
+	text-transform: capitalize;
+	margin:0 0 22px 11px;
+}
+._form select#date,._form .new-select.date{
+	width: 66px;
+	margin-right: 14px;
+	display: inline-block;
+}
+._form select#date1,._form .new-select.date1{
+	width: 125px;
+	display: inline-block;
+}
+._form input#cvv2{
+	width: 75px;
+	margin-right: 10px;
+}
+._form .inputs li span,._form input+label a.label{
+	color: #cd0000;
+	font: 12px Arial,sans-serif;
+	padding: 0;
+	text-decoration: underline;
+	cursor: help;
+}
+._form input+label a.label{
+	text-decoration: none;
+	cursor: pointer;
+}
+._form input+label a.label:hover{
+	text-decoration: underline;
+}
+._form .inputs .noted.bill:after{
+	top:6px;
+	right: 93px;
+}
+._form .content #box{
+	visibility: hidden;
+}
+._form label[for="box"]{
+	padding: 0 0 0 23px;
+	background: url(../img/checkbox.jpg) no-repeat 0 0;
+	line-height: 15px;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	left:-23px;
+	margin-bottom: 24px;
+}
+._form .content fieldset textarea{
+	margin-bottom: 4px;
+}
+._form #box:checked+label{
+	background-position: 0 100%;
+}
+._form .content button{
+	margin: 0;
+	border:0;
+	padding: 0;
+}
+._form .content button a{
+	margin-bottom: 0;
+}
+._form .main{
+	margin-bottom: 45px;
+}
+
+/*----------------------------------------------------------------------------------------------------
+
+Styles for paypalbuy.html
+--------------------------------------------------------------------------------------------------------------*/
+.paypal .content p{
+	font: 13px/18px Arial,sans-serif;
+	color: #3e3e3e;
+	margin-bottom: 30px;
+}
+.paypal .content span{
+	line-height: 16px;
+}
+.paypal .content p+span{
+	font: 18px/31px Arial,sans-serif;
+	color: #606060;
+	padding-right: 12px;
+}
+.paypal .content a{
+	font: 14px/31px "MyriadProBold",Verdana,sans-serif;
+	padding: 0 22px;
+}
+.paypal .content h1{
+	line-height: 54px;
+	margin-bottom: 5px;
+	letter-spacing: -1px;
+}

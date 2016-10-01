@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Zooportal</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/style.css">
+
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700italic,400italic&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- bxSlider Javascript file -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			  $('.bxslider').bxSlider({
+			  	mode: 'fade',
+			  	controls: false,
+			  	auto: true,
+			  	autoHover: true,
+			  });
+			});
+	</script>
+</head>
+<body>
+	<div class="wrapper-top">
+		<ul>
+			<li><a href="#">О проекте</a></li>
+			<li><a href="#">Выставки</a></li>
+			<li><a href="#">Обратная связь</a></li>
+		</ul>
+	</div>
+	<div class="wrapper-header">
+		<div class="header clearfix">
+			<a href="#"><img src="img/logo.png" alt="logo"></a>
+			<div class="header-search">
+				<h1><span>1-й</span> информационный зоопортал <span>Украины</span></h1>
+				<form action="#">
+					<input type="search" placeholder="Поиск по сайту">
+					<button></button>
+				</form>
+				
+			</div>
+			<img src="img/dog-header.png" alt="#">
+		</div>
+	</div>
+	<div class="wrapper-header-menu">
+		<ul>
+			<li><a href="#">Объявления</a></li>
+			<li><a href="#">Питомники</a></li>
+			<li><a href="#">Ветклиники</a></li>
+			<li><a href="#">Уход и содержание</a></li>
+			<li><a href="#">Корма</a></li>
+			<li><a href="#">Форум</a></li>
+		</ul>
+	</div>
+	<div class="content clearfix">
+			<div class="left-col">
+				<div class="slider-wrap">
+					<ul class="bxslider slider">
+						<li class="slider-item">
+							<img src="img/slider-img.jpg" alt="pets">
+							<h2>новые питомники <span>щенков и котят</span></h2>
+							
+						</li>
+						<li class="slider-item ">
+							<img src="img/slider-img2.jpg" alt="pets">
+							<h2>новые питомники <span>щенков и котят</span></h2>
+							
+						</li>
+						<li class="slider-item">
+							<img src="img/slider-img3.jpg" alt="pets">
+							<h2>новые питомники <span>щенков и котят</span></h2>
+							
+						</li>
+					</ul>
+					
+					
+
+				</div>
+				<h2>Самое свежее из блогов</h2>
+				<ul>
+					<li class="blog-block clearfix">
+						<img src="img/blog-img1.jpg" alt="cats">
+						<div class="blog-text">
+							<h4><a href="#">Где лучше покупать животных, на птичьем рынке или в зоомагазине?</a></h4>
+							<div class="date">
+								<span>24 апреля, 2015</span>
+								<span class="views">4</span>
+								<span class="comments">7</span>
+							</div>
+							<p>
+								Практически у каждого, кто задумывается о покупке животного, возникает вопрос, где лучше приобрести себе друга, на птичьем рынке или в зоомагазине?
+							</p>
+							<a href="#">Читать подробнее &hellip;</a>
+						</div>
+					</li>
+					<li class="blog-block clearfix">
+						<img src="img/blog-img2.jpg" alt="dog">
+						<div class="blog-text">
+							<h4><a href="#">Как определить настроение собаки по вилянию хвоста</a></h4>
+							<div class="date">
+								<span>19 апреля, 2015</span>
+								<span class="views">11</span>
+								<span class="comments">15</span>
+							</div>
+							<p>
+								О том, что довольная собака виляет хвостом, а напуганная его поджимает известно многим, но это далеко не все, что животное может сказать хвост.
+							</p>
+							<a href="#">Читать подробнее &hellip;</a>
+						</div>
+					</li>
+					<li class="blog-block clearfix">
+						<img src="img/blog-img3.jpg" alt="history">
+						<div class="blog-text">
+							<h4><a href="#">Ученые палеонтологи обнаружили останки доисторических собак</a></h4>
+							<div class="date">
+								<span>08 апреля, 2015</span>
+								<span class="views">39</span>
+								<span class="comments">27</span>
+							</div>
+							<p>
+								Международная группа палеонтологов совершенно случайно наткнулась на останки животного, которое не было ранее известно науке.
+							</p>
+							<a href="#">Читать подробнее &hellip;</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="right-col">
+				<div class="interview-block">
+					<h3>Опрос</h3>
+					<form action="#" class="checkmark">
+					<p>Какой питомец сейчас живет у Вас дома?</p>
+						<span>
+							<input type="checkbox" id="cat">
+							<label for="cat">Кошка</label>
+						</span>
+						<span>
+							<input type="checkbox" id="dog">
+							<label for="dog">Собака</label>
+						</span>
+						<span>
+							<input type="checkbox" id="bird">
+							<label for="bird">Птица</label>
+						</span>
+						<span>
+							<input type="checkbox" id="fish">
+							<label for="fish">Рыбка</label>
+						</span>
+						<span>
+							<input type="checkbox" id="other">
+							<label for="other">Другое</label>
+						</span>
+					</form>
+
+					<ul>
+						<li><a href="#">Голосовать</a></li>
+						<li><a href="#">Результаты</a></li>
+						<li><a href="#">Все опросы</a></li>
+					</ul>
+				</div>
+				<div class="discussed">
+					<h3>Самое обсуждаемое</h3>
+					<img src="img/discussed-img.jpg" alt="#">
+					<p><span class="views">103</span><span class="comments">47</span></p>
+					<h4><a href="#">Как выбрать ошейник для Вашего любимца?</a></h4>
+				</div>
+
+
+			</div>
+		
+	</div>
+	<div class="wrapper-advices">
+		<h2>Полезные советы</h2>
+		<ul class="advices">
+			<li>
+				<img src="img/advices-img1.jpg" alt="#">
+				<div class="advices-hover">
+					<h4><a href="#">Как правильно фотографировать животных</a></h4>
+					<p>Практически у каждого, кто задумывается о покупке животного, возникает вопрос, где лучше приобрести себе друга, на птичьем рынке или в зоомагазине?</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/advices-img2.jpg" alt="#">
+				<div class="advices-hover">
+					<h4><a href="#">Чумка у кошек: симптомы, лечение и профилактика</a></h4>
+					<p>О том, что довольная собака виляет хвостом, а напуганная его поджимает известно многим, но это далеко не все, что животное может сказать хвост.</p>
+				</div>
+			</li>
+			<li>
+				<img src="img/advices-img3.jpg" alt="#">
+				<div class="advices-hover">
+					<h4><a href="#">Как аквариум в доме влияет на здоровье человека</a></h4>
+					<p>Международная группа палеонтологов совершенно случайно наткнулась на останки животного, которое не было ранее известно науке.</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="wrapper-subscribe">
+		<h2>Получайте интересные статьи первыми!</h2>
+		<form action="#">
+			<span>
+				<input type="text" placeholder="Ваше имя">
+				<input type="email" placeholder="E-mail">
+			</span>
+			<button type="submit">Подписаться</button>
+		</form>
+	</div>
+	<div class="wrapper-footer">
+		<div class="wrapper-footer-menu">
+			<ul>
+				<li><a href="#">Объявления</a></li>
+				<li><a href="#">Питомники</a></li>
+				<li><a href="#">Ветклиники</a></li>
+				<li><a href="#">Уход и содержание</a></li>
+				<li><a href="#">Корма</a></li>
+				<li><a href="#">Форум</a></li>
+			</ul>
+		</div>
+		<div class="footer clearfix">
+			<a href="#"><img src="img/logo-footer.png" alt="#"></a>
+			<img src="img/footer-img.png" alt="#">
+			<div class="copy-social-author">
+				<span>Pets Today &copy; 2015</span>
+				<ul>
+					<li><a href="#"></a></li>
+					<li><a class="fb" href="#"></a></li>
+					<li><a class="tw" href="#"></a></li>
+				</ul>
+				<p>Создание сайта - WebСтрой</p>
+			</div>
+
+		</div>
+	</div>
+	<script>
+		if( document.createElement('svg').getAttributeNS ) {
+
+		    var checkbxsCheckmark = Array.prototype.slice.call( document.querySelectorAll( 'form.checkmark input[type="checkbox"]' ) ),
+		        
+		        pathDefs = {
+		            
+		            checkmark : ['M16.667,62.167c3.109,5.55,7.217,10.591,10.926,15.75 c2.614,3.636,5.149,7.519,8.161,10.853c-0.046-0.051,1.959,2.414,2.692,2.343c0.895-0.088,6.958-8.511,6.014-7.3 c5.997-7.695,11.68-15.463,16.931-23.696c6.393-10.025,12.235-20.373,18.104-30.707C82.004,24.988,84.802,20.601,87,16'],
+		            
+		        },
+		        animDefs = {
+		            
+		            checkmark : { speed : .8, easing : 'ease-in-out' },
+		            
+		        };
+
+		    function createSVGEl( def ) {
+		        var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+		        if( def ) {
+		            svg.setAttributeNS( null, 'viewBox', def.viewBox );
+		            svg.setAttributeNS( null, 'preserveAspectRatio', def.preserveAspectRatio );
+		        }
+		        else {
+		            svg.setAttributeNS( null, 'viewBox', '0 0 100 100' );
+		        }
+		        svg.setAttribute( 'xmlns', 'http://www.w3.org/2000/svg' );
+		        return svg;
+		    }
+
+		    function controlCheckbox( el, type, svgDef ) {
+		        var svg = createSVGEl( svgDef );
+		        el.parentNode.appendChild( svg );
+
+		        el.addEventListener( 'change', function() {
+		            if( el.checked ) {
+		                draw( el, type );
+		            }
+		            else {
+		                reset( el );
+		            }
+		        } );
+		    }
+
+		    
+
+		    checkbxsCheckmark.forEach( function( el, i ) { controlCheckbox( el, 'checkmark' ); } );
+		    
+
+		    function draw( el, type ) {
+		        var paths = [], pathDef,
+		            animDef,
+		            svg = el.parentNode.querySelector( 'svg' );
+
+		        	pathDef = pathDefs.checkmark; animDef = animDefs.checkmark;
+
+		        paths.push( document.createElementNS('http://www.w3.org/2000/svg', 'path' ) );
+
+		        
+		        for( var i = 0, len = paths.length; i < len; ++i ) {
+		            var path = paths[i];
+		            svg.appendChild( path );
+
+		            path.setAttributeNS( null, 'd', pathDef[i] );
+
+		            var length = path.getTotalLength();
+		            console.log(length);
+		            // Clear any previous transition
+		            //path.style.transition = path.style.WebkitTransition = path.style.MozTransition = 'none';
+		            // Set up the starting positions
+		            path.style.strokeDasharray = length + ' ' + length;
+		            if( i === 0 ) {
+		                path.style.strokeDashoffset = Math.floor( length ) - 1;
+		            }
+		            else path.style.strokeDashoffset = length;
+		            // Trigger a layout so styles are calculated & the browser
+		            // picks up the starting position before animating
+		            path.getBoundingClientRect();
+		            // Define our transition
+		            path.style.transition = path.style.WebkitTransition = path.style.MozTransition  = 'stroke-dashoffset ' + animDef.speed + 's ' + animDef.easing + ' ' + i * animDef.speed + 's';
+		            // Go!
+		            path.style.strokeDashoffset = '0';
+		        }
+		    }
+
+		    function reset( el ) {
+		        Array.prototype.slice.call( el.parentNode.querySelectorAll( 'svg > path' ) ).forEach( function( el ) { el.parentNode.removeChild( el ); } );
+		    }
+
+
+}
+	</script>
+</body>
+</html>
