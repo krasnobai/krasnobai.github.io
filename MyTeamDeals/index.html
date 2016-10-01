@@ -1,0 +1,308 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script  src="js/jquery.countdown.js" type="text/javascript"></script>
+		<script  src="js/main.js" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+		<script src="js/map.js" type="text/javascript"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'en'}
+</script>
+
+		<title>MyTeamDeals</title>
+	</head>
+	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_EN/sdk.js#xfbml=1&version=v2.3";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+
+			
+		<div class="wrapper">
+			<div class="header">
+				<div class="header-top-holder">
+					<div class="header-top">
+						<ul>
+							<li><a href="#">Log in</a></li>
+							<li><a href="#">Sign up</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="header-main-holder clearfix">
+					<div class="header-main">
+						<div class="logo">
+							<a href="#"><img src="images/logo.png" alt="logo"></a>
+							<h1>MyTeamDeals</h1>
+							<p>A win-win for your local community</p>
+						</div>
+						<div class="nav">
+							<ul>
+								<li><a href="#">featured deal</a></li>
+								<li><a href="#">how it works</a></li>
+								<li><a href="#">recent deals</a></li>
+								<li><a href="#">more cities</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main">
+				<div class="main-holder clearfix">
+					<div class="content-holder clearfix">
+						<h2>Lorem ipsum dolor sit amet, rhoncus etiam voluptas posuere blandit</h2>
+						<div class="left-col">
+							<div class="price">
+								<p>$ 199.99</p>
+							</div>
+							<div class="button-buy">
+								<a href="#">register to buy</a>
+							</div>
+							<div class="timer-holder clearfix"> 
+								<div class="part-container clearfix">
+									<div class="price1 part">
+										<p>price</p>
+										<p>$399</p>
+									</div>
+									<div class="discount part">
+										<p>discount</p>
+										<p>50%</p>
+									</div>
+									<div class="save part">
+										<p>save</p>
+										<p>$200</p>
+									</div>
+								</div>
+								<div class="timer">
+									<img src="images/timer.png" alt="timer">
+									<p>EXPIRES IN</p>
+									<ul id="countdown" >
+										<li>
+										 	<span class="days">0</span>
+										 	<p class="days_text">days</p>
+										</li>
+										<li>
+										 	<span class="hours">00</span>
+										 	<p class="hours_text">hrs</p>
+										</li>
+										<li>
+										 	<span class="minutes">00</span>
+										 	<p class="minutes_text">mins</p>
+										</li>
+										<li>
+										 	<span class="seconds">00</span>
+										 	<p class="seconds_text">secs</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							
+							<div class="deal-sold">
+								<ul>
+									<li class="sprait">
+										<p>deal is on</p>
+									</li>
+									<li>
+										<p>the deal is on</p>
+									</li>
+									<li>
+										<p>59 sold</p>
+									</li>
+								</ul>
+							</div>
+							<h3>location</h3>
+
+							<div id="map-canvas"></div>
+
+							<div class="address">
+								<p>macquarie st</p>
+								<p>sydney new South wales 2000</p>
+								<p>(02) 9250 7777</p>
+							</div>
+						</div>
+						<div class="right-col">
+							<div class="image-container">
+								<img src="images/photo.jpg" alt="photo">
+								<div class="social-plugins">
+									<p>
+										share deal:
+									</p>
+									<ul>
+										<li>
+											<div class="fb-like" data-href="https://football.ua" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+										</li>
+										<li>
+											<div class="fb-send" data-href="https://developers.facebook.com/docs/plugins/" data-colorscheme="light"></div>
+										</li>
+										<li>
+											<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+											<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+											</script>
+										</li>
+										<li>
+											<div class="g-plusone" data-size="medium"></div>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+							<h3> details</h3>
+							<div class="text">
+								<p>
+									Lorem ipsum dolor sit amet, rhoncus etiam voluptas posuere blandit, rhoncus mi a in, nostra blandit aenean. Proin vestibulum ac erat libero fermentum luctus, hac volutpat amet, facilisis suspendisse, parturient ultrices urna. Lorem ipsum dolor sit amet, rhoncus etiam voluptas posuere blandit, rhoncus mi a in, nostra blandit aenean. Proin vestibulum ac erat libero fermentum luctus, hac volutpat amet, facilisis suspendisse, parturient ultrices urna. 
+								</p>
+								<p>
+									Etiam ligula, magna lorem at quis wisi nisl rhoncus. Aliquam magna. Amet diam, diam in nibh habitant, blandit lectus nec leo diam nisl, eget conubia varius, duis consequat nec. Curabitur vulputate neque volutpat, risus aenean fringilla ut tincidunt, dapibus luctus arcu malesuada dui fringilla quis, ut eget integer.
+								</p>
+								<ul>
+									<li><span>Laoreet eget nec, morbi nascetur arcu</span> </li>
+									<li><span>Eget maecenas pellentesque vestibulum sagittis tristique</span> </li>
+									<li><span>Ac quam ultrices luctus eget dignissim curabitur</span></li>
+									<li><span>Nunc gravida condimentum proin etiam wisi ad</span></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+					<div class="sidebar-holder">
+						<div class="sidebar">
+							<h2>more team deals</h2>
+							<ul>
+								<li class="clearfix">
+									<img src="images/sidebar-img_1.jpg" width="101px" height="63px">
+									<a href="#">Northwest Territory</a> 
+									<a href="#">Front Porch Tent</a>
+									<p >$146.99</p>
+								</li>
+								<li class="clearfix">
+									<img src="images/sidebar-img_2.jpg" width="101px" height="63px">
+									<a href="#">Mountain Trails South</a>
+									<a href="#">Bend 9- by 7-Foot, Bend 9- by 7-Foot,Mountain Trails South Bend 9- by 7-Foot</a>
+									<p >$30.66</p>
+								</li>
+								<li class="clearfix">
+									<img src="images/sidebar-img_3.jpg"width="101px" height="63px">
+									<a href="#">Mountain Trails South</a>
+									<a href="#">Bend 9- by 7-Foot, Bend 9- by 7-Foot,Mountain Trails South Bend 9- by 7-Foot</a>
+									<p >$30.66</p>
+								</li>
+								<li class="clearfix">
+									<img src="images/sidebar-img_4.jpg"width="101px" height="63px">
+									<a href="#">Mountain Trails South</a>
+									<a href="#">Bend 9- by 7-Foot, Bend 9- by 7-Foot,Mountain Trails South Bend 9- by 7-Foot</a>
+									<p >$30.66</p>
+								</li>
+								<li class="clearfix">
+									<img src="images/sidebar-img_5.jpg"width="101px" height="63px">
+									<a href="#">Mountain Trails South</a>
+									<a href="#">Bend 9- by 7-Foot, Bend 9- by 7-Foot,Mountain Trails South Bend 9- by 7-Foot</a>
+									<p >$30.66</p>
+								</li>
+							</ul>
+							<div class="button-view_all">
+								<a href="#">view all</a>
+							</div>
+						</div>
+						<div class="fb_page">
+							<div class="fb-page" data-href="https://www.facebook.com/myteamdeals" data-width="260" data-height="275" data-hide-cover="true" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/myteamdeals"><a href="https://www.facebook.com/myteamdeals">My Team Deals</a></blockquote></div></div>
+						</div>
+					</div>
+				
+				</div>
+			
+			</div>
+			<div class="footer">
+				<div class="footer-holder">
+					<ul class="lists-container">
+						<li>
+							<h4>lorem</h4>
+							<ul class="list">
+								<li><a href="#">lorem ipsum</a></li>
+								<li><a href="#">dolor sit</a></li>
+								<li><a href="#">amet rhoncus</a></li>
+								<li><a href="#">etiam</a></li>
+								<li><a href="#">rhoncus mi a</a></li>
+								<li><a href="#">in nostra</a></li>
+							</ul>
+						</li>
+							
+						<li>
+							<h4>ipsum</h4>
+							<ul class="list">
+								<li><a href="#">dolor sit</a></li>
+								<li><a href="#">amet rhoncus</a></li>
+								<li><a href="#">etiam</a></li>
+								<li><a href="#">voluptas</a></li>
+								<li><a href="#">posuere</a></li>
+								<li><a href="#">blandit</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<h4>dolor</h4>
+							<ul class="list">
+								<li><a href="#">dolor sit</a></li>
+								<li><a href="#">amet rhoncus</a></li>
+								<li><a href="#">etiam</a></li>
+								<li><a href="#">rhoncus mi a</a></li>
+								<li><a href="#">in nostra</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<h4>sit amet</h4>
+							<ul class="list">
+								<li><a href="#">lorem ipsum</a></li>
+								<li><a href="#">dolor sit</a></li>
+								<li><a href="#">amet rhoncus</a></li>
+								<li><a href="#">etiam</a></li>
+							</ul>
+						</li>
+						
+						<li><!--Блок со спрайтами-->
+							<ul class="spraits">
+								<li><a href="#">twitter</a></li>
+								<li><a class="facebook"href="#">facebook</a></li>
+								<li><a class="in" href="#">in</a></li>
+							</ul>
+						</li>
+						
+						<li>
+							<div class="twit">
+								<p>
+									Lorem ipsum dolor sit amet, rhoncus etiam voluptas posuere blandit, rhoncus mi a in, nostra blandit aenean. 
+									<a href="#">http://ow.ly/19OINm</a>
+								</p>
+								<p>
+									6:59 PM Oct 14th via web
+								</p>
+							</div>
+							<div class="footer_logo clearfix">
+								<img src="images/footer_logo.png" alt="logo">
+								<span>MyTeamDeals</span>
+								<p>
+									&copy; 2011 MyTeamDeals all rights reserved.
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+
+
+		</div>
+	</body>
+</html>
+
